@@ -15,6 +15,18 @@
 		EBB0D19E1C911099003B20BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB0D19C1C911099003B20BE /* LaunchScreen.storyboard */; };
 		EBB0D1A91C911099003B20BE /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1A81C911099003B20BE /* test2Tests.m */; };
 		EBB0D1B41C911099003B20BE /* test2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1B31C911099003B20BE /* test2UITests.m */; };
+		EBB0D1DC1C915290003B20BE /* CLLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1C51C915290003B20BE /* CLLockVC.m */; };
+		EBB0D1DD1C915290003B20BE /* CLLockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB0D1C61C915290003B20BE /* CLLockVC.xib */; };
+		EBB0D1DE1C915290003B20BE /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1CA1C915290003B20BE /* CALayer+Anim.m */; };
+		EBB0D1DF1C915290003B20BE /* CoreLockConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1CD1C915290003B20BE /* CoreLockConst.m */; };
+		EBB0D1E01C915290003B20BE /* CLLockNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1D01C915290003B20BE /* CLLockNavVC.m */; };
+		EBB0D1E11C915290003B20BE /* CLLockInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1D31C915290003B20BE /* CLLockInfoView.m */; };
+		EBB0D1E21C915290003B20BE /* CLLockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1D51C915290003B20BE /* CLLockItemView.m */; };
+		EBB0D1E31C915290003B20BE /* CLLockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1D71C915290003B20BE /* CLLockLabel.m */; };
+		EBB0D1E41C915290003B20BE /* CLLockMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1D91C915290003B20BE /* CLLockMainView.m */; };
+		EBB0D1E51C915290003B20BE /* CLLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1DB1C915290003B20BE /* CLLockView.m */; };
+		EBB0D1EF1C9152A9003B20BE /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1EA1C9152A9003B20BE /* NSString+File.m */; };
+		EBB0D1F01C9152A9003B20BE /* CoreArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB0D1EC1C9152A9003B20BE /* CoreArchive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,30 @@
 		EBB0D1AF1C911099003B20BE /* test2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB0D1B31C911099003B20BE /* test2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2UITests.m; sourceTree = "<group>"; };
 		EBB0D1B51C911099003B20BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB0D1C41C915290003B20BE /* CLLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockVC.h; sourceTree = "<group>"; };
+		EBB0D1C51C915290003B20BE /* CLLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockVC.m; sourceTree = "<group>"; };
+		EBB0D1C61C915290003B20BE /* CLLockVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLLockVC.xib; sourceTree = "<group>"; };
+		EBB0D1C91C915290003B20BE /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		EBB0D1CA1C915290003B20BE /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		EBB0D1CC1C915290003B20BE /* CoreLockConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockConst.h; sourceTree = "<group>"; };
+		EBB0D1CD1C915290003B20BE /* CoreLockConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLockConst.m; sourceTree = "<group>"; };
+		EBB0D1CF1C915290003B20BE /* CLLockNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockNavVC.h; sourceTree = "<group>"; };
+		EBB0D1D01C915290003B20BE /* CLLockNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockNavVC.m; sourceTree = "<group>"; };
+		EBB0D1D21C915290003B20BE /* CLLockInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockInfoView.h; sourceTree = "<group>"; };
+		EBB0D1D31C915290003B20BE /* CLLockInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockInfoView.m; sourceTree = "<group>"; };
+		EBB0D1D41C915290003B20BE /* CLLockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockItemView.h; sourceTree = "<group>"; };
+		EBB0D1D51C915290003B20BE /* CLLockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockItemView.m; sourceTree = "<group>"; };
+		EBB0D1D61C915290003B20BE /* CLLockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockLabel.h; sourceTree = "<group>"; };
+		EBB0D1D71C915290003B20BE /* CLLockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockLabel.m; sourceTree = "<group>"; };
+		EBB0D1D81C915290003B20BE /* CLLockMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockMainView.h; sourceTree = "<group>"; };
+		EBB0D1D91C915290003B20BE /* CLLockMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockMainView.m; sourceTree = "<group>"; };
+		EBB0D1DA1C915290003B20BE /* CLLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockView.h; sourceTree = "<group>"; };
+		EBB0D1DB1C915290003B20BE /* CLLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockView.m; sourceTree = "<group>"; };
+		EBB0D1E91C9152A9003B20BE /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		EBB0D1EA1C9152A9003B20BE /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		EBB0D1EB1C9152A9003B20BE /* CoreArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreArchive.h; sourceTree = "<group>"; };
+		EBB0D1EC1C9152A9003B20BE /* CoreArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreArchive.m; sourceTree = "<group>"; };
+		EBB0D1EE1C9152A9003B20BE /* CoreConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreConst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +137,8 @@
 		EBB0D18D1C911099003B20BE /* test2 */ = {
 			isa = PBXGroup;
 			children = (
+				EBB0D1E61C9152A9003B20BE /* FrameWork */,
+				EBB0D1C31C915290003B20BE /* CoreLock */,
 				EBB0D1911C911099003B20BE /* AppDelegate.h */,
 				EBB0D1921C911099003B20BE /* AppDelegate.m */,
 				EBB0D1941C911099003B20BE /* ViewController.h */,
@@ -138,6 +176,108 @@
 				EBB0D1B51C911099003B20BE /* Info.plist */,
 			);
 			path = test2UITests;
+			sourceTree = "<group>";
+		};
+		EBB0D1C31C915290003B20BE /* CoreLock */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1C41C915290003B20BE /* CLLockVC.h */,
+				EBB0D1C51C915290003B20BE /* CLLockVC.m */,
+				EBB0D1C61C915290003B20BE /* CLLockVC.xib */,
+				EBB0D1C71C915290003B20BE /* Lib */,
+			);
+			path = CoreLock;
+			sourceTree = "<group>";
+		};
+		EBB0D1C71C915290003B20BE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1C81C915290003B20BE /* Category */,
+				EBB0D1CB1C915290003B20BE /* Const */,
+				EBB0D1CE1C915290003B20BE /* Controller */,
+				EBB0D1D11C915290003B20BE /* View */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EBB0D1C81C915290003B20BE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1C91C915290003B20BE /* CALayer+Anim.h */,
+				EBB0D1CA1C915290003B20BE /* CALayer+Anim.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EBB0D1CB1C915290003B20BE /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1CC1C915290003B20BE /* CoreLockConst.h */,
+				EBB0D1CD1C915290003B20BE /* CoreLockConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		EBB0D1CE1C915290003B20BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1CF1C915290003B20BE /* CLLockNavVC.h */,
+				EBB0D1D01C915290003B20BE /* CLLockNavVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBB0D1D11C915290003B20BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1D21C915290003B20BE /* CLLockInfoView.h */,
+				EBB0D1D31C915290003B20BE /* CLLockInfoView.m */,
+				EBB0D1D41C915290003B20BE /* CLLockItemView.h */,
+				EBB0D1D51C915290003B20BE /* CLLockItemView.m */,
+				EBB0D1D61C915290003B20BE /* CLLockLabel.h */,
+				EBB0D1D71C915290003B20BE /* CLLockLabel.m */,
+				EBB0D1D81C915290003B20BE /* CLLockMainView.h */,
+				EBB0D1D91C915290003B20BE /* CLLockMainView.m */,
+				EBB0D1DA1C915290003B20BE /* CLLockView.h */,
+				EBB0D1DB1C915290003B20BE /* CLLockView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBB0D1E61C9152A9003B20BE /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1E71C9152A9003B20BE /* CoreArchive */,
+				EBB0D1ED1C9152A9003B20BE /* CoreExtend */,
+			);
+			path = FrameWork;
+			sourceTree = "<group>";
+		};
+		EBB0D1E71C9152A9003B20BE /* CoreArchive */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1E81C9152A9003B20BE /* Category */,
+				EBB0D1EB1C9152A9003B20BE /* CoreArchive.h */,
+				EBB0D1EC1C9152A9003B20BE /* CoreArchive.m */,
+			);
+			path = CoreArchive;
+			sourceTree = "<group>";
+		};
+		EBB0D1E81C9152A9003B20BE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1E91C9152A9003B20BE /* NSString+File.h */,
+				EBB0D1EA1C9152A9003B20BE /* NSString+File.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EBB0D1ED1C9152A9003B20BE /* CoreExtend */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0D1EE1C9152A9003B20BE /* CoreConst.h */,
+			);
+			path = CoreExtend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +385,7 @@
 			files = (
 				EBB0D19E1C911099003B20BE /* LaunchScreen.storyboard in Resources */,
 				EBB0D19B1C911099003B20BE /* Assets.xcassets in Resources */,
+				EBB0D1DD1C915290003B20BE /* CLLockVC.xib in Resources */,
 				EBB0D1991C911099003B20BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +411,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB0D1E31C915290003B20BE /* CLLockLabel.m in Sources */,
+				EBB0D1F01C9152A9003B20BE /* CoreArchive.m in Sources */,
 				EBB0D1961C911099003B20BE /* ViewController.m in Sources */,
+				EBB0D1DF1C915290003B20BE /* CoreLockConst.m in Sources */,
+				EBB0D1E11C915290003B20BE /* CLLockInfoView.m in Sources */,
+				EBB0D1E41C915290003B20BE /* CLLockMainView.m in Sources */,
 				EBB0D1931C911099003B20BE /* AppDelegate.m in Sources */,
+				EBB0D1E51C915290003B20BE /* CLLockView.m in Sources */,
+				EBB0D1DC1C915290003B20BE /* CLLockVC.m in Sources */,
+				EBB0D1E01C915290003B20BE /* CLLockNavVC.m in Sources */,
+				EBB0D1E21C915290003B20BE /* CLLockItemView.m in Sources */,
+				EBB0D1EF1C9152A9003B20BE /* NSString+File.m in Sources */,
+				EBB0D1DE1C915290003B20BE /* CALayer+Anim.m in Sources */,
 				EBB0D1901C911099003B20BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +648,7 @@
 				EBB0D1BA1C911099003B20BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBB0D1BB1C911099003B20BE /* Build configuration list for PBXNativeTarget "test2Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +657,7 @@
 				EBB0D1BD1C911099003B20BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBB0D1BE1C911099003B20BE /* Build configuration list for PBXNativeTarget "test2UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +666,7 @@
 				EBB0D1C01C911099003B20BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
